@@ -24,9 +24,9 @@ def map(array)
 end
 
 
-def reduce(array,starting=nil)
-  if starting
-    value = starting
+def reduce(array,*starting)
+  if starting[0]
+    value = starting[0]
     else
     value = 0
   end
