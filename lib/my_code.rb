@@ -14,6 +14,7 @@ def map(array)
   
   while (count < array.count) do
     out.push(yield(array[count]))
+    count+=1
   end
     
 
