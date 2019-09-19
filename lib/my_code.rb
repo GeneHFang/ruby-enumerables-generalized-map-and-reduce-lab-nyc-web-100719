@@ -26,7 +26,7 @@ end
 
 def reduce(array,starting=nil)
   if starting
-    value = starting[0]
+    value = starting
     else
     value = 0
   end
