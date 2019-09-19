@@ -28,7 +28,7 @@ def reduce(array,*starting)
   if starting[0]
     value = starting[0]
     else
-    value = 0
+    value = array[0]
   end
   count = 0
 
