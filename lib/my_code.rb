@@ -33,8 +33,7 @@ def reduce(array,*starting)
   count = 0
 
   while count < array.count-1 do
-    value = array[count] 
-    yield(array[count],array[count+1])
+    value +=  yield(array[count],array[count+1])
     count+=1
   end 
  value
